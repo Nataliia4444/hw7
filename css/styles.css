@@ -1179,9 +1179,11 @@ transition: opacity 250ms var(--timing-function);
   padding: 0;
   background-color: transparent;
   cursor: pointer;
-  border: none;
+  border: 1px solid var(--cornflower);
   border-radius: 50%;
   outline: none;
+
+  
 }
 
 @media (min-width: 768px) {
@@ -1292,8 +1294,8 @@ gap: 56px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--iris);
-  display: flex;
-  flex-wrap: nowrap;
+  display: inline-block;
+
 
 }
 .adreess-menu-link{
@@ -1304,6 +1306,7 @@ gap: 56px;
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 48px;
+
 }
 .adreess-menu-link:hover,
 .adreess-menu-link:focus{
@@ -1311,4 +1314,8 @@ gap: 56px;
 }
 .adreess-menu-link:active{
   color: var(--ocean);
+}
+.menu-close{
+ fill: var(--navy-blue);
+
 }
