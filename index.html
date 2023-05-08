@@ -37,21 +37,12 @@
                 <li><a class="header-link list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
          </address>
-         <!-- <button
-         class="menu-toggle js-open-menu"
-         aria-expanded="false"
-         aria-controls="mobile-menu"
-       >
-         <svg width="30" height="19">
-            <use href="./images/icons.svg#icon-burger"></use>
-         </svg>
-       </button> -->
        <button
        class="menu-toggle js-open-menu"
        aria-expanded="false"
        aria-controls="mobile-menu"
        >
-       <svg width="30" height="19">
+       <svg width="30" height="22">
         <use href="./images/icons.svg#icon-burger"></use>
        </svg>
      </button>
@@ -116,13 +107,13 @@
                     <h2 class="content-title">What are we doing</h2>
                     <ul class="card-set list link">
                         <li class="card-set-item item">
-                            <img src="./images/img.jpg" alt="laptop" width="360" height="300">
+                            <img srcset="images\Gallery\img.jpg 1x, images\Gallery\img@2x.jpg 2x" src="./images/Gallery" alt="Photo Mark Guerrero" width="264" height="260">
                         </li>
                         <li class="card-set-item item">
-                            <img src="./images/img2.jpg" alt="smartphone" width="360" height="300">
+                             <img srcset="images\Gallery\img2.jpg 1x, images\Gallery\img2@2x.jpg 2x" src="./images/Gallery/img2.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                         </li>
                         <li class="card-set-item item">
-                            <img src="./images/img3.jpg" alt="iphone" width="360" height="300">
+                             <img srcset="images\Gallery\img3.jpg 1x, images\Gallery\img3@2x.jpg 2x" src="./images/Gallery/img3.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                         </li>
                     </ul>
                 </div>
@@ -133,7 +124,7 @@
                     <h2 class="subject-section">Our Team</h2>
                     <ul class="features-list list card-set">
                        <li class="features-items card-set-item">
-                        <img src="./images/img4.jpg" alt="Photo Mark Guerrero" width="264" height="260">
+                        <img srcset="images\Team\img4.jpg 1x, images\Team\img4@2x.jpg 2x" src="./images/Team/img4.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                         <div class="team-wrapper">
                             <h3 class="features-title">Mark Guerrero</h3>
                             <p class="features-section-text">Product Designer</p>
@@ -170,7 +161,7 @@
                         </div>
                        </li>
                        <li class="features-items card-set-item">
-                        <img src="./images/img7.jpg" alt="Photo Tom Ford" width="264" height="260">
+                        <img srcset="images\Team\img5.jpg 1x, images\Team\img5@2x.jpg 2x" src="./images/Team/img5.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                         <div class="team-wrapper">
                             <h3 class="features-title">Tom Ford</h3>
                             <p class="features-section-text">Frontend Developer</p>
@@ -207,7 +198,7 @@
                         </div>
                        </li>
                        <li class="features-items card-set-item">
-                        <img src="./images/img5.jpg" alt="Photo Camila Garcia" width="264" height="260">
+                        <img srcset="images\Team\img6.jpg 1x, images\Team\img6@2x.jpg 2x" src="./images/Team/img6.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                         <div class="team-wrapper">
                             <h3 class="features-title">Camila Garcia</h3>
                             <p class="features-section-text">Marketing</p>
@@ -244,7 +235,7 @@
                         </div>
                        </li>
                        <li class="features-items card-set-item">
-                        <img src="./images/img6.jpg" alt="Photo Daniel Wilson" width="264" height="260">
+                        <img srcset="images\Team\img7.jpg 1x, images\Team\img7@2x.jpg 2x" src="./images/Team/img7.jpg" alt="Photo Mark Guerrero" width="264" height="260">
                         <div class="team-wrapper">
                             <h3 class="features-title">Daniel Wilson</h3>
                             <p class="features-section-text">UI Designer</p>
@@ -387,8 +378,8 @@
                 </div>
             </div>
         </footer>
-           <!-- Modal window -->
-           <!-- <div class="backdrop is-hidden" data-modal>
+        <!-- Modal window -->
+           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="modal-close-button" data-modal-close>
                     <svg class="modal-icon" width="8" height="8">
@@ -433,12 +424,12 @@
                     <button type="submit" class="modal-buttom">Send</button>
                 </form>
             </div>
-        </div> -->
+        </div>
         <!-- Mobile menu -->
         <div class="menu-container js-menu-container" id="mobile-menu">
-            <button class="menu-toggle js-close-menu">
-                <svg class="mobile-menu-close" width="8" height="8">
-                    <use href="./images/close.svg#mobile-icon-close" ></use>
+            <button class="menu-toggle-close js-close-menu">
+                <svg class="mobile-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
               </button>
       
@@ -461,7 +452,7 @@
                     <a class="adreess-menu-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
            </ul>
-           <ul class="mobil-socils list ">
+           <ul class="mobile-socils list ">
             <li class="social-item">
                 <a class="social-link footer-link link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Link instagram">
                      <svg class="social-icon footer-icon" width="24" height="24">
@@ -492,7 +483,7 @@
              </li>
            </ul>
           </div>
-    <script src="./modal.js"></script>
+    <script src="./js/modal.js"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
